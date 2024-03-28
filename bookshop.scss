@@ -61,3 +61,65 @@ h2, .p1 {
     text-align: center;
     transform: rotate(-180deg); 
 }
+.popup {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    /* transform: translate(-50%, -50%); */
+    background-color: rgba(255, 255, 255, 0.9);
+    /* padding: 20px;
+    border: 2px solid #000; */
+    max-width: 100%;
+    max-height: 100%;
+    z-index: 9999;
+    /* overflow-y: auto; */
+  }
+  .popup-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+  .box {
+    background-color: #412538; /* update */
+    border-radius: 10px;
+    padding: 20px;
+  } 
+    .container{
+    display:flex
+    flex-direction:column;
+    gap: 20px;
+  }  
+   .cardDisplay {
+    display:flex;
+    align-items: center;
+   }
+   .image-container{
+    margin-right: 20px;
+   }
+   
+   .card-img{
+    width: auto !important;
+    height: 200px;
+    float:left;
+    border-radius: 20px;
+    margin-right: 20px;
+   }
+  
+  .cards-p{
+    width: 90%;
+    margin 20px 30 px 0 0;
+    font-size: 36;
+    color: #786e75 /* update */ 
+  }
+  .card-header {
+    color:#786e75; /* update */ 
+    text-align: center;
+    font-size: 2em;  
+  }
+

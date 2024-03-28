@@ -23,10 +23,38 @@ A hyperlinked feedback form (you can link to a fake form or create one using Goo
 <div>
     <h2>Hello my fellow bibliophile!</h2>
     <p class="p1">Click a title below for more information.</p> <!-- style this -->
-</div>        
-<div class="book-container">
+</div> 
+<div class="book-box" onclick="showPopup()">
+    <p class="book-title">The Flight Attendant</p>
+</div>
+
+<!-- Popup content -->
+<div class="popup" id="popup">
+    <header class="header-box">The Flight Attendant</header>
+    <div class="box">
+        <div class="cards">
+            <div class="card">
+                <h2 class="card-header">by Chris Bohjalian</h2>
+            </div>
+            <div class="cardDisplay">
+                <div class="image-container">
+                    <img src="./images/flightAttendant.jpeg" alt="book cover" class="card-img">
+                </div>
+                <div class="text-container">
+                    <p class="cards-p">Bohjalian tells the story of one carefree flight attendant whose lifestyle of adventure led her to a frightful moment. She wakes up in the wrong bed in a wrong hotel with a dead man.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- JavaScript file -->
+<script src="bookshop.js"></script>
+
+
+<!-- <div class="book-container">
     <a href="./flightAttendant.html" class="book-box" onclick="navigateToPage()">The Flight Attendant</a>
-        
+         -->
     <!-- <p>Chris Bohalian</p>
     <p>Bohjalian tells the story of one carefree flight attendant 
         whose lifestyle of adventure led her to a frightful moment. 
