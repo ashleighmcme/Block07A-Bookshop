@@ -1,0 +1,58 @@
+/* background image  */
+/* #F5EDE3, #E7E0D9, #332E29, #866B51, #A29386, #3A3633 */
+body {
+    background-image: url(./images/newFacade.jpg);
+    /* opacity: 0.5; */
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh; 
+}
+header {
+    /* opacity: 1.0 !important; */
+    color: #3a3633;
+    font-size: x-large;
+    font-weight: bold;
+    padding: 20px 0;
+    text-align: center;
+    text-shadow: 4px 4px 8px rgba(141, 136, 131, 0.8)    
+}
+.header-box{
+    background-color: #E2DDDB; /* Set the background color */
+    padding: 20px; /* Add padding for spacing */
+    text-align: center; /* Center the text horizontally */
+    color: #3a3633; /* Set the text color */
+    font-size: x-large; /* Set the font size */
+    font-weight: bold; 
+}
+h2, p1  { /* p1 style not working */
+    color: #866b51;
+    font-size: x-large;
+    /* font-weight: bold; */
+    /* padding: 20px 0; */
+    text-align: center;
+    text-shadow: 4px 4px 8px rgba(43, 28, 14, 0.8)    
+
+}
+
+
+.book-container {
+    display: flex;
+    justify-content: center;
+}
+
+/* Style for each rectangular box */
+.book-box {
+    width: 100px;
+    height: 500px;
+    opacity: .6;
+    background-color: #f0f0f0;
+    margin: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    writing-mode: vertical-rl; /* Set text direction to vertical */
+    text-align: center;
+    transform: rotate(-180deg); 
+}
+

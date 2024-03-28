@@ -1,0 +1,63 @@
+$main-bg-color: #F5EDE3;
+$secondary-bg-color: #E7E0D9;
+$text-color: #3a3633;
+$shadow-color: rgba(141, 136, 131, 0.8);
+$book-bg-color: #f0f0f0;
+$book-shadow-color: rgba(43, 28, 14, 0.8);
+
+/* Background image */
+body {
+    background-image: url(./images/newFacade.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh; 
+}
+
+header {
+    /* opacity: 1.0 !important; */
+    color: $text-color;
+    font-size: x-large;
+    font-weight: bold;
+    padding: 20px 0;
+    text-align: center;
+    text-shadow: 4px 4px 8px $shadow-color;    
+}
+
+.header-box {
+    background-color: #E2DDDB; 
+    padding: 20px; 
+    text-align: center; 
+    color: $text-color; 
+    font-size: x-large; 
+    font-weight: bold; 
+}
+
+h2, .p1 { 
+    color: #866b51;
+    font-size: x-large;
+    /* font-weight: bold; */
+    /* padding: 20px 0; */
+    text-align: center;
+    text-shadow: 4px 4px 8px $book-shadow-color;    
+}
+
+.book-container {
+    display: flex;
+    justify-content: center;
+}
+
+/* Style for each rectangular box */
+.book-box {
+    width: 100px;
+    height: 500px;
+    opacity: .6;
+    background-color: $book-bg-color;
+    margin: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    writing-mode: vertical-rl; /* Set text direction to vertical */
+    text-align: center;
+    transform: rotate(-180deg); 
+}
